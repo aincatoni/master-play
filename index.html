@@ -1,0 +1,151 @@
+
+
+<!DOCTYPE html>
+<html lang="ee">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/bs-5.css">
+  <link rel="stylesheet" href="app.css">
+
+     <!-- JS Externo para SLIDER -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+   </script>
+   
+</head>
+<body>
+
+  <div class="bs-5">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="50">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="/master-play"><img src="img/MKT0362--WEB-Banner-Header-1920x300-.png" class="d-block w-100"
+              alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="/master-play"><img src="img/MKT0362-V2--WEB-Banner-Header-1920x300-.png" class="d-block w-100"
+              alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+<div class="bs-5">
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-12 text-center">
+        <h1 class="pcf-text-bold pcf-title-big">Ediciones anteriores
+        </h1>
+      </div>
+    </div>
+    <div class="row" id="slideVideos">
+      <div id="carouselVideosControls" class="carousel carousel-fade slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="col-6 col-md-3 me-1">
+              <div class="videoslide_title">
+                <h3 class="pcf-paragraph pcf-text-black pcf-text-bold my-3">5 Tips para pc Factory Master Play 2023</h3>
+              </div>
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/pyXMGhVHjrQ?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-6 col-md-3 me-1">
+              <div class="videoslide_title">
+                <h3 class="pcf-paragraph pcf-text-black pcf-text-bold my-3">Master Play 2023, prepárate para desafiar
+                  <br> a los mejores</h3>
+              </div>
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/s_Kip_2zK9E?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-6 col-md-3 me-1">
+              <div class="videoslide_title">
+                <h3 class="pcf-paragraph pcf-text-black pcf-text-bold my-3">Master play pc Factory by Intel 2022</h3>
+              </div>
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/xneM5SCuGSs?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-6 col-md-3 me-1">
+              <div class="videoslide_title">
+                <h3 class="pcf-paragraph pcf-text-black pcf-text-bold my-3">¡Recibimos a los campeones de la copa <br> Master Play! 2022</h3>
+              </div>
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/OSYiKpyrppE?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-6 col-md-3 mx-1">
+              <div class="videoslide_title">
+                <h3 class="pcf-paragraph pcf-text-black pcf-text-bold my-3">Mejores jugadas gran final pc Factory
+                  Master
+                  Play by Intel 2022
+                </h3>
+              </div>
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/kHck7g9r9y0?rel=0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideosControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselVideosControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+<!-- Mostrar 4 slides -->
+  <script>
+  const items = document.querySelectorAll('#slideVideos .carousel .carousel-item');
+  items.forEach((e) =>{
+    const slide = 3;
+    let next = e.nextElementSibling;
+    for(var i = 0; i<slide; i++) {
+      if(!next) {
+        next = items[0]
+      }
+      let cloneChild = next.cloneNode(true)
+      e.appendChild(cloneChild.children[0])
+      next = next.nextElementSibling
+    }
+  })
+  </script>
+</body>
+</html>

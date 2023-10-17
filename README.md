@@ -1,0 +1,1 @@
+Try to implement two boostrap sliders, one with images and other one with videos, the second one must show 4 videos at once
